@@ -4,7 +4,7 @@
 # marv-mssql-driver
 A SQL Server driver for [marv](https://www.npmjs.com/package/marv)
 
-"If @cressie176 can do it, anyone can." Anon, 2019
+"If @cressie176 can do it, there's a 80% chance @cliftonc will take the credit." Anon, 2019
 
 ## Usage
 ```
