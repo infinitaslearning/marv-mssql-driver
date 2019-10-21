@@ -19,13 +19,13 @@
     "hath-assert": "^0.2.0",
     "hath-report-spec": "^0.1.0",
     "husky": "^0.14.3",
-    "marv-compliance-tests": "^2.0.0"
+    "marv": "^3.1.0",
+    "marv-compliance-tests": "^3.0.0"
   },
   "dependencies": {
     "async": "^2.6.1",
     "debug": "^4.1.0",
     "lodash": "^4.17.11",
-    "marv": "^2.1.0",
     "mssql": "^5.1.0"
   },
   "keywords": [

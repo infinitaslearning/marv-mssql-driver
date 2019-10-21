@@ -4,7 +4,6 @@ var _ = require('lodash')
 var async = require('async')
 var format = require('util').format
 var debug = require('debug')('marv:mssql-driver')
-var marv = require('marv')
 var supportedDirectives = ['audit', 'comment', 'skip']
 var pkg = require('./package.json')
 
@@ -102,9 +101,9 @@ module.exports = function(options) {
         })
     }
 
-    function runMigration(_migration, cb) {
+    function runMigration(migration, cb) {
         debug('Run migration')
-        var migration = _.merge({}, _migration, { directives: marv.parseDirectives(_migration.script) })
+        _.defaults(migration, { directives: {} })
 
         checkDirectives(migration.directives)
 
