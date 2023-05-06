@@ -12,7 +12,7 @@
   "author": "Infinitas Learning BV",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.10.0",
+    "eslint": "^8.40.0",
     "eslint-config-imperative": "^2.0.1",
     "eslint-plugin-imperative": "^2.0.0",
     "hath": "^1.0.1",
